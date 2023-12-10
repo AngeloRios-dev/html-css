@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+/* To reset the margin and padding of all labels */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+/* To avoid problems with images */
+img, picture, video, iframe, figure {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    /* optional */
+    -o-object-fit: cover;
+        object-fit: cover;
+    /* optional */
+    -o-object-position: center center;
+        object-position: center center;
+}
+
+/* To make links work like boxes */
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+
+/* Links found in paragraphs work inline */
+p a {
+    display: inline;
+}
+
+/* remove list style type */
+li {
+    list-style-type: none;
+}
+
+/* To modify anchors behavior and font size */
+html {
+    font-size: 62.5%; 
+    /* This font size change is made
+    to facilitate the conversion from PX to REM.
+    Like this: 1REM = 10px */
+    scroll-behavior: smooth;
+}
+
+/* To modify font attributes */
+body {
+    min-height: 100vh;
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+
+/* To disable default styles for main text labels */
+h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* To solve font and form placement problems */
+form, input, textarea, select, button, label {
+    font-family: inherit;
+    font-size: inherit;
+    background-color: transparent;
+    color: inherit;
+    display: block;
+}
+ 
