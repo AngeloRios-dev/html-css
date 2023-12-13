@@ -5,7 +5,7 @@ Este repositorio sirve como espacio central para albergar una serie de proyectos
 
 1. *Diversidad de Proyectos:* Explora una variedad de proyectos para aprender a implementar diseños web responsivos, todos implementados utilizando únicamente HTML y CSS.
 
-2. *Casos de Estudio Prácticos:* Cada proyecto se presenta como un caso de estudio.
+2. *Estudio Prácticos:* Cada proyecto se presenta como un caso de estudio.
 
 3. *Enfocado en HTML y CSS:* Limitado a HTML y CSS, este repositorio es para poner en practica el desarrollo front-end sin la complejidad adicional de otros lenguajes o frameworks.
 
