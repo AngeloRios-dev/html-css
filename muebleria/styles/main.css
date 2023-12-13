@@ -93,6 +93,31 @@ body{
     border-bottom: 0.2rem solid var(--cyan-color);
 }
 
+.dropdown__productos{
+    cursor: pointer;
+}
+.dropdown__productos-link{
+    color: var(--main-black-color);
+    font-size: 2rem;
+    padding: 1rem 2rem;
+}
+
+.dropdown__productos-menu{
+    display: none;
+    position: absolute;
+    background-color: var(--cyan-color);
+    width: 15rem;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+.dropdown__productos:hover .dropdown__productos-menu{
+    display: block;
+}
+
+.dropdown__productos-link:hover{
+    background-color: var(--main-white-color);
+}
+
 .hero{
     margin-top: 3rem;
     width: 100%;
@@ -265,3 +290,7 @@ body{
 .social__media--icon:hover{
     fill: var(--cyan-color);
 }
+
+
+/* DELETE CONTENT */
+
