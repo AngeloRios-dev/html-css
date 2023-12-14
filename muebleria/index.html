@@ -9,31 +9,27 @@
     <title>Mueble para el Hogar u Oficina | Tienda Muebles</title>
 </head>
 <body>
-    <header class="nombre__tienda contenedor">
-        <div class="logo">Da</div>
-        <h1 class="nombre__tienda--titulo">Dise&ntilde;o Armon&iacute;a</h1>
+    <header class="encabezado container">
+        <div class="encabezado__logo">Da</div>
+        <h1 class="encabezado__titulo">Dise&ntilde;o Armon&iacute;a</h1>
+
+        <label for="mostrar-menu" class="mostrar-menu-label">
+            <span></span>
+        </label>
+        
     </header>
-    <div class="contenedor__menu">
-        <nav class="menu-principal contenedor">
-            <a class="menu-principal__link current__link" href="index.html" title="Pagina de inicio">Inicio</a>
-            <div class="dropdown__productos">
-                <div class="menu-principal__link">Productos</div>
-                <div class="dropdown__productos-menu">
-                    <a class="dropdown__productos-link" href="">Cocina</a>
-                    <a class="dropdown__productos-link" href="">Ba&ntilde;os</a>
-                    <a class="dropdown__productos-link" href="">Muebles de Interior</a>
-                    <a class="dropdown__productos-link" href="">Armarios y Vestidores</a>
-                    <a class="dropdown__productos-link" href="">Puertas</a>
-                    <a class="dropdown__productos-link" href="">Muebles de Exterior</a>
-                    <a class="dropdown__productos-link" href="">Accesorios y Complementos</a>
-                    <a class="dropdown__productos-link" href="">Pavimentos y Revestimientos</a>
-                    <a class="dropdown__productos-link" href="">Iluminaci&oacute;n</a>
-                </div>
-            </div>
-            <a class="menu-principal__link" href="presupuesto.html" title="Pagina con formulario para solicitar presupuesto">Presupuesto</a>
-            <a class="menu-principal__link" href="ubicacion.html" title="Pagina con el mapa de la ubicacion de la empresa e informacion de contacto">Contacto</a>
-        </nav>
-    </div>
+    
+    <input type="checkbox" id="mostrar-menu" class="mostrar-menu">
+    
+    <nav class="menu">
+        <a class="menu__link" href="index.html" title="Pagina de inicio">Inicio</a>
+        <a class="menu__link" href="productos.html" title="Enlace a pagina de productos">Productos</a>
+        <a class="menu__link" href="presupuesto.html" title="Pagina con formulario para solicitar presupuesto">Presupuesto</a>
+        <a class="menu__link" href="ubicacion.html" title="Pagina con el mapa de la ubicacion de la empresa e informacion de contacto">Contacto</a>
+    </nav>
+
+
+
     <div class="hero"></div>
 
     <main class="showroom contenedor">
