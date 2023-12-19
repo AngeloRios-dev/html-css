@@ -9,35 +9,25 @@
     <title>Mueble para el Hogar u Oficina | Tienda Muebles</title>
 </head>
 <body>
-    <header class="encabezado container">
-        <div class="encabezado__logo">Da</div>
-        <h1 class="encabezado__titulo">Dise&ntilde;o Armon&iacute;a</h1>
-
-        <label for="mostrar-menu" class="mostrar-menu-label">
-            <span></span>
-        </label>
-        
+    <header class="header container">
+        <div class="header__logo">Da</div>
+        <h1 class="header__title">Dise&ntilde;o Armon&iacute;a</h1>
     </header>
-    
-    <input type="checkbox" id="mostrar-menu" class="mostrar-menu">
-    
-    <nav class="menu">
-        <a class="menu__link" href="index.html" title="Pagina de inicio">Inicio</a>
-        <a class="menu__link" href="productos.html" title="Enlace a pagina de productos">Productos</a>
-        <a class="menu__link" href="presupuesto.html" title="Pagina con formulario para solicitar presupuesto">Presupuesto</a>
-        <a class="menu__link" href="ubicacion.html" title="Pagina con el mapa de la ubicacion de la empresa e informacion de contacto">Contacto</a>
+    <nav class="nav container">
+        <a class="nav__link active--link" href="index.html" title="Pagina de inicio">Inicio</a>
+        <a class="nav__link" href="productos.html" title="Enlace a pagina de productos">Productos</a>
+        <a class="nav__link" href="presupuesto.html" title="Pagina con formulario para solicitar presupuesto">Presupuesto</a>
+        <a class="nav__link" href="ubicacion.html" title="Pagina con el mapa de la ubicacion de la empresa e informacion de contacto">Contacto</a>
     </nav>
+    <div class="hero-home"></div>
+    <section class="showroom container">
+        <header>
+            <h2>
+                Descubre la excelencia y calidad en nuestros showrooms.
+            </h2>
+        </header>
 
-
-
-    <div class="hero"></div>
-
-    <main class="showroom contenedor">
-        <h2 class="showroom__title nombre__tienda--titulo">
-            Descubre la excelencia y calidad en nuestros showrooms.
-        </h2>
-
-        <div class="showroom__text">
+        <div>
             <p>
                 Explora nuestro extenso repertorio de muebles a medida, que abarca desde diseños modernos y clásicos para cocinas y baños hasta armarios y vestidores de alta calidad. En Dise&ntilde;o Armon&iacute;a, nos enorgullece ofrecer una excelente relación calidad-precio en cada rincón de tu hogar, desde muebles de salón hasta mobiliario de exterior de lujo.
             </p>
@@ -48,62 +38,66 @@
                 En Dise&ntilde;o Armon&iacute;a, brindamos servicios tanto a profesionales como a particulares, asegurando que cada cliente encuentre soluciones personalizadas que resalten la belleza y funcionalidad de sus ambientes. Descubre la excelencia en diseño y calidad con nosotros.
             </p>
         </div>
-    </main>
-    <section class="apartado">
-        <h2>Descubre Nuestros Productos</h2>
-        <div class="productos">
-            <div class="productos__item">
-                <img class="productos__img" src="./assets/img/cocina.jpg" alt="">
-                <div class="productos__link">
-                    <a class="productos__link--hover" href="#">Cocina</a>
+    </section>
+
+
+    <section class="product">
+        <header>
+            <h2>Descubre Nuestros Productos</h2>
+        </header>
+        <div class="product__grid">
+            <div class="product__item">
+                <img class="product__img" src="./assets/img/cocina.jpg" alt="">
+                <div class="product__link-box">
+                    <a class="product__link" href="#">Cocina</a>
                 </div>  
             </div>
-            <div class="productos__item">
-                <img class="productos__img" src="./assets/img/banos.jpg" alt="">
-                <div class="productos__link">
-                    <a class="productos__link--hover" href="#">Ba&ntilde;os</a>
+            <div class="product__item">
+                <img class="product__img" src="./assets/img/banos.jpg" alt="">
+                <div class="product__link-box">
+                    <a class="product__link" href="#">Ba&ntilde;os</a>
                 </div>  
             </div>
-            <div class="productos__item">
-                <img class="productos__img" src="./assets/img/muebles-interior.jpg" alt="">
-                <div class="productos__link">
-                    <a class="productos__link--hover" href="#">Muebles de Interior</a> 
+            <div class="product__item">
+                <img class="product__img" src="./assets/img/muebles-interior.jpg" alt="">
+                <div class="product__link-box">
+                    <a class="product__link" href="#">Muebles de Interior</a> 
                 </div> 
             </div>
-            <div class="productos__item">
-                <img class="productos__img" src="./assets/img/armarios.jpg" alt="">
-                <div class="productos__link">
-                    <a class="productos__link--hover" href="#">Armarios y Vestidores</a>  
+            <div class="product__item">
+                <img class="product__img" src="./assets/img/armarios.jpg" alt="">
+                <div class="product__link-box">
+                    <a class="product__link" href="#">Armarios y Vestidores</a>  
                 </div>
             </div>
-            <div class="productos__item">
-                <img class="productos__img" src="./assets/img/puertas.jpg" alt="">
-                <div class="productos__link">
-                    <a class="productos__link--hover" href="#">Puertas</a>  
+            <div class="product__item">
+                <img class="product__img" src="./assets/img/puertas.jpg" alt="">
+                <div class="product__link-box">
+                    <a class="product__link" href="#">Puertas</a>  
                 </div>
             </div>
-            <div class="productos__item">
-                <img class="productos__img" src="./assets/img/muebles-exterior.png" alt="">
-                <div class="productos__link">
-                    <a class="productos__link--hover" href="#">Muebles de Exterior</a>  
+            <div class="product__item">
+                <img class="product__img" src="./assets/img/muebles-exterior.png" alt="">
+                <div class="product__link-box">
+                    <a class="product__link" href="#">Muebles de Exterior</a>  
                 </div>
             </div>
-            <div class="productos__item">
-                <img class="productos__img" src="./assets/img/accesorios-complementos.png" alt="">
-                <div class="productos__link">
-                    <a class="productos__link--hover" href="#">Accesorios y complementos</a>  
+            <div class="product__item">
+                <img class="product__img" src="./assets/img/accesorios-complementos.png" alt="">
+                <div class="product__link-box">
+                    <a class="product__link" href="#">Accesorios y complementos</a>  
                 </div>
             </div>
-            <div class="productos__item">
-                <img class="productos__img" src="./assets/img/pavimentos-revestimientos.png" alt="">
-                <div class="productos__link">
-                    <a class="productos__link--hover" href="#">Pavimentos y Revestimientos</a>  
+            <div class="product__item">
+                <img class="product__img" src="./assets/img/pavimentos-revestimientos.png" alt="">
+                <div class="product__link-box">
+                    <a class="product__link" href="#">Pavimentos y Revestimientos</a>  
                 </div>
             </div>
-            <div class="productos__item">
-                <img class="productos__img" src="./assets/img/iluminacion-porada.jpg" alt="">
-                <div class="productos__link">
-                    <a class="productos__link--hover" href="#">Iluminaci&oacute;n</a>  
+            <div class="product__item">
+                <img class="product__img" src="./assets/img/iluminacion-porada.jpg" alt="">
+                <div class="product__link-box">
+                    <a class="product__link" href="#">Iluminaci&oacute;n</a>  
                 </div>
             </div>
         </div>

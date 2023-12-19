@@ -1,5 +1,5 @@
 /* 
-COLORES */
+COLORS */
 :root{
     --clr-light: #cfcfce;
     --clr-dark-100: #626262;
@@ -9,7 +9,7 @@ COLORES */
 }
 
 /* 
-AJUSTES GOBALES */
+GLOBAL ADJUSTMENTS */
 body{
     background-color: var(--clr-dark-700);
     color: var(--clr-light);
@@ -28,18 +28,20 @@ section{
 .container{
     margin: 0 auto;
     width: min(90%, 120rem);
-    /* background-color: red; */
 
 }
 
 /* 
-ENCABEZADO Y MENU*/
-
-.encabezado{
-    padding: 1.5rem 0;
+HEADER STYLES*/
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    gap: 1.5rem;
 }
 
-.encabezado__logo{
+.header__logo{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,64 +53,97 @@ ENCABEZADO Y MENU*/
     color: var(--clr-dark-700);
 }
 
-.encabezado__titulo{
+.header__title{
+    margin: 0;
     color: var(--clr-light);
 }
 
-.mostrar-menu-label span,
-.mostrar-menu-label span::before,
-.mostrar-menu-label span::after{
-    display: block;
-    background-color: var(--clr-light);
-    height: 0.2rem;
-    width: 3rem;
-    border-radius: 0.2rem;
-    position: relative;
+/* 
+NAVIGATION STYLES */
+
+nav{
+    display: flex;
+    justify-content: space-between;
 }
 
-.mostrar-menu-label span::before,
-.mostrar-menu-label span::after{
-    content: "";
-    position: absolute;
+.nav__link{
+    margin: 3rem;
 }
 
-.mostrar-menu-label span::before{
-    bottom: 1rem;
-}
-.mostrar-menu-label span::after{
-    top: 1rem;
+.nav__link:hover{
+    border-bottom: 0.3rem solid var(--accent-clr);
 }
 
-/* Dispositivos pequeños o telefonos 600px o menos */
-@media only screen and (max-width: 600px) {
-    .encabezado{
-        background-color: red;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .encabezado__titulo{
-        display: none;
-
-    }
-    .menu{
-        /* display: none; */
-        transform: scale(1, 0);
-        transform-origin: top;
-        transition: all 200ms ease;
-    }
-    .mostrar-menu{
-        display: none;
-    }
-
-    /* El "~" busca cualquier hermano de mostrar-menu, 
-    no tiene que ser inmediatamente después. */
-    .mostrar-menu:checked ~ .menu{
-        /* display: block; */
-        transform: scale(1, 1);
-    }
+.active--link{
+    border-bottom: 0.3rem solid var(--accent-clr); 
 }
 
 /* 
+HOME HERO IMAGE */
+.hero-home{
+    width: 100%;
+    height: 55rem;
+    background-image: url("../assets/img/hero1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3rem;
+}
 
+/* 
+SHOWROOM SECTOPM */
+
+.showroom{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+
+}
+
+/* 
+PRODUCT SECTION */
+.product__grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.product__item{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product__img{
+    height: 40rem;
+    object-fit: cover;
+    filter: grayscale(60%);
+}
+
+.product__link-box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__link-box:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.product__link{
+    padding: 0.5em 1.5em;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.product__link:hover{
+    border: 0.1rem solid var(--accent-clr);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* 
+seguir viendo video para menu movil------
+https://www.youtube.com/watch?v=8QKOaTYvYUA
 */
