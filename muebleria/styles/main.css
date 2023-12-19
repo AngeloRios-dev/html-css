@@ -212,6 +212,36 @@ CALL TO ACTION */
 }
 
 /* 
+FOOTER SECTION */
+.footer-sec{
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-sec__adrs{
+    font-size: 1.3rem;
+    color: var(--clr-dark-100);
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-media__icon{
+    width: 2rem;
+    fill: var(--clr-dark-200);
+}
+
+.social-media__icon:hover{
+    fill: var(--accent-clr);
+}
+
+
+/* 
 seguir viendo video para menu movil------
 https://www.youtube.com/watch?v=8QKOaTYvYUA
 */
