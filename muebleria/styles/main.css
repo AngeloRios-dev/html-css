@@ -76,6 +76,12 @@ HEADER STYLES*/
     color: var(--clr-light);
 }
 
+.burger-btn{
+    width: 4rem;
+    fill: var(--clr-light);
+    display: none;
+}
+
 /* 
 NAVIGATION STYLES */
 
@@ -117,6 +123,7 @@ SHOWROOM SECTION */
     grid-template-columns: 1fr 2fr;
     align-items: center;
     gap: 3rem;
+    padding: 1.5em;
 }
 
 /* 
@@ -170,13 +177,12 @@ PRODUCT SECTION */
 CALL TO ACTION */
 .cta{
     display: grid;
-    /* grid-template-columns: repeat(2, 1fr); */
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .cta__cards{
     background-color: var(--clr-dark-200);
-    padding: 4rem;
+    padding: 1em;
 }
 
 .cta__img{
@@ -224,6 +230,8 @@ FOOTER SECTION */
 .footer-sec__adrs{
     font-size: 1.3rem;
     color: var(--clr-dark-100);
+    padding: 1em;
+    text-align: center;
 }
 
 .social-media{
@@ -243,15 +251,33 @@ FOOTER SECTION */
 
 /* Breakpoint for small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .nav{
+        display: none;
+    }
+    .header{
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    .header__title{
+        scale: .5;
+    }
+    .burger-btn{
+        display: block;
+        fill: var(--clr-light);
+    }
     .showroom{
         grid-template-columns: 1fr;
+
     }
     .product__grid{
         grid-template-columns: 1fr;
         gap: 1rem;
     }
-    .cta__cards{
-        padding: 1rem;
+    .cta{
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    }
+    .noshow{
+        display: none;
     }
     .cta-form{
         flex-direction: column;
