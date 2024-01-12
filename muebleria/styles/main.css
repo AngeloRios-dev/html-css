@@ -76,12 +76,6 @@ HEADER STYLES*/
     color: var(--clr-light);
 }
 
-.burger-btn{
-    width: 4rem;
-    fill: var(--clr-light);
-    display: none;
-}
-
 /* 
 NAVIGATION STYLES */
 
@@ -100,6 +94,16 @@ nav{
 
 .active--link{
     border-bottom: 0.3rem solid var(--accent-clr); 
+}
+
+.burger-btn{
+    width: 4rem;
+    fill: var(--clr-light);
+    display: none;
+}
+
+#nav-display{
+    display: none;
 }
 
 /* 
@@ -251,8 +255,21 @@ FOOTER SECTION */
 
 /* Breakpoint for small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .nav-toggle:checked ~ nav{
+        display: block;
+    }
     .nav{
         display: none;
+    }
+    .nav__link:hover{
+        color: var(--accent-clr);
+        border: none;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .active--link{
+        border-bottom: none; 
+        color: var(--accent-clr);
     }
     .header{
         justify-content: space-between;
@@ -292,6 +309,7 @@ FOOTER SECTION */
         border-radius: 1rem;
         width: 30rem;
     }
+    
 
 }
 
