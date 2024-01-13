@@ -6,19 +6,19 @@ Para la realización de esta maqueta, deberéis utilizar únicamente HTML5 y CSS
 
 # Estructura del sitio web y de las carpetas del codigo
 
-## Menu de navegacion
+## Menu de navegacion [DONE]
 El menú de navegación deberá estar situado en la parte superior
 del sitio. resaltar mediante el uso de estilos CSS la página del menú en la que se encuentra actualmente el usuario en el sitio web.
 
-## Pie de pagina
+## Pie de pagina [DONE]
 El pie de página contendrá los logotipos de varias redes sociales
 que nos redirijan a ellas, la dirección de la empresa y el aviso legal.
 
-## Logotipo o nombre de la empresa,
+## Logotipo o nombre de la empresa [DONE]
 El nombre de la empresa o el logotipo podrá situarse en la barra
 del menú de navegación o en la parte superior de la página
 
-##  Portada del sitio web
+##  Portada del sitio web [DONE]
 Se deberán añadir el contenido principal de la página. Deberá tener como mínimo 3 secciones diferentes.
 
 ## Página de galería
