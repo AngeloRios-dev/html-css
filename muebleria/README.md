@@ -21,7 +21,7 @@ del menú de navegación o en la parte superior de la página
 ##  Portada del sitio web [DONE]
 Se deberán añadir el contenido principal de la página. Deberá tener como mínimo 3 secciones diferentes.
 
-## Página de galería
+## Página de galería [DONE]
 Se llamará: productos.html o portfolio.html, esta página será la encargada de mostrar los trabajos o productos de la empresa en forma de cuadrícula, como las típicas miniaturas de una galería de imágenes.
 
 ## Página de presupuestos
