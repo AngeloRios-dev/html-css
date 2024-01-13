@@ -268,8 +268,49 @@ GALLERY SECTION */
     grid-column: span 2 ;
 }
 
+/* 
+BUDGET SECTION*/
 
+.formulario{
+    max-width: 60rem;
+    margin: 0 auto;
+}
 
+.formulario__fieldset{
+    border: 0.1rem solid var(--accent-clr);
+    margin-bottom: 2rem;
+}
+
+.formulario__legend{
+    width: 90%;
+    background-color: var(--accent-clr);
+    color: var(--clr-dark-700);
+    text-align: center;
+    padding: 1rem;
+    font-weight: 900;
+}
+
+.formulario__campo{
+    display: flex;
+    gap: 1rem;
+    margin: 2rem;
+}
+
+.formulario__label{
+    flex-basis: 10rem;
+}
+
+.formulario__input{
+    border: 0.1rem solid var(--clr-dark-100);
+    width: 90%;
+    padding: 0.5rem;
+}
+.formulario__terminos{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+    font-size: 1.3rem;
+}
 
 
 /* 
