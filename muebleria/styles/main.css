@@ -264,12 +264,11 @@ FOOTER SECTION */
     .nav__link:hover{
         color: var(--accent-clr);
         border: none;
-        font-weight: bold;
-        text-transform: uppercase;
     }
     .active--link{
         border-bottom: none; 
         color: var(--accent-clr);
+        text-transform: uppercase;
     }
     .header{
         justify-content: space-between;
@@ -309,8 +308,22 @@ FOOTER SECTION */
         border-radius: 1rem;
         width: 30rem;
     }
-    
+}
 
+@media only screen and (max-width: 950px) {
+    .product__grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .showroom{
+        grid-template-columns: 1fr;
+
+    }
+    .cta{
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    }
+    .noshow{
+        display: none;
+    }
 }
 
 
