@@ -287,7 +287,6 @@ FOOTER SECTION */
     }
     .product__grid{
         grid-template-columns: 1fr;
-        gap: 1rem;
     }
     .cta{
         grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -310,7 +309,15 @@ FOOTER SECTION */
     }
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 995px) {
+    nav{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .nav__link{
+        margin: 3rem 1rem;
+    }
     .product__grid{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -321,13 +328,17 @@ FOOTER SECTION */
     .cta{
         grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     }
-    .noshow{
-        display: none;
+    .cta-form{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    #cta-form__email{
+        width: 100%;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    .cta-form--btn{
+        border-radius: 1rem;
+        width: 100%;
     }
 }
-
-
-/* 
-seguir viendo video para menu movil------
-https://www.youtube.com/watch?v=8QKOaTYvYUA
-*/
