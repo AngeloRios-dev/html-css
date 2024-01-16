@@ -34,11 +34,11 @@ Los campos del formulario deberán ser:
 
 Se deberá incluir un checkbox dónde los usuarios aceptarán la “Política de privacidad” de la empresa. Para que se puedan enviar los datos deberán estar cumplimentados todos los campos y deberá estar marcado el checkbox.
 
-## Página de contacto
+## Página de contacto [DONE]
 Se llamará: contacto.html, en ella se deberá insertar un mapa con la ubicación de la empresa, puede ser una imagen (.png o .jpg) así como los datos de la empresa. 
 
 
-# Estilo
+# Estilo [DONE]
 El sitio deberá tener un estilo atractivo y actual.
 Se puede usar un máximo de tres colores además del blanco y negro.
 

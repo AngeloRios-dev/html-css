@@ -226,7 +226,7 @@ CALL TO ACTION */
 GALLERY SECTION */
 .hero-galeria{
     width: 100%;
-    height: 55rem;
+    height: 35rem;
     background-image: url("../assets/img/muebles-hero.png");
     background-repeat: no-repeat;
     background-position: center center;
@@ -312,6 +312,33 @@ BUDGET SECTION*/
     font-size: 1.3rem;
 }
 
+/* 
+CONTACT SECTION */
+.hero-contacto{
+    width: 100%;
+    height: 35rem;
+    background-image: url("../assets/img/contactanos.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3rem;
+    filter: grayscale(60%);
+}
+
+.hero-contacto__titulo{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr-dark-200);
+}
+
+.ubicacion{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    width: 95%;
+}
 
 /* 
 FOOTER SECTION */
@@ -380,6 +407,9 @@ Breakpoint for Medium devices (landscape tablets, 995px and down) */
     }
     .galeria__img:nth-child(n){
         grid-column: span 2 ;
+    }
+    .ubicacion{
+        grid-template-columns: 1fr;
     }
 }
 
