@@ -24,7 +24,7 @@ Se deberán añadir el contenido principal de la página. Deberá tener como mí
 ## Página de galería [DONE]
 Se llamará: productos.html o portfolio.html, esta página será la encargada de mostrar los trabajos o productos de la empresa en forma de cuadrícula, como las típicas miniaturas de una galería de imágenes.
 
-## Página de presupuestos
+## Página de presupuestos [DONE]
 Se llamará: presupuesto.html, en esta página se deberá crear un formulario con campos HTML5 que comprueben los datos introducidos por el usuario. 
 Los campos del formulario deberán ser:
     - Nombre
