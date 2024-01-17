@@ -12,24 +12,32 @@
     <header class="header container">
         <div class="header__logo">Da</div>
         <h1 class="header__title">Dise&ntilde;o Armon&iacute;a</h1>
-        <!-- icon for burger menu -->
+        <!-- Icono (label del checkbox) para el menú en dispositivos móviles, 
+            muestra las típicas 3 líneas del menú hamburguesa -->
         <label for="nav-display">
             <svg class="burger-btn" viewBox="0 0 100 80" width="40" height="40">
                 <rect width="100" height="8" rx="4"></rect>
                 <rect y="30" width="100" height="8" rx="4"></rect>
                 <rect y="60" width="100" height="8" rx="4"></rect>
-                
               </svg>
         </label>
     </header>
+    <!-- Al no poder usar JavaScript, usaremos un checkbox oculto, del que solo
+        veremos el label. Cuando el usuario lo marque, se desplegara la versión 
+        móvil del menú de navegación. -->
     <input type="checkbox" id="nav-display" class="nav-toggle">
+    <!-- Barra de navegación o menú hamburguesa en versiones móviles -->
     <nav class="nav container">
         <a class="nav__link active--link" href="index.html" title="Pagina de inicio">Inicio</a>
         <a class="nav__link" href="productos.html" title="Enlace a pagina de productos">Productos</a>
         <a class="nav__link" href="presupuesto.html" title="Pagina con formulario para solicitar presupuesto">Presupuesto</a>
         <a class="nav__link" href="contacto.html" title="Pagina con el mapa de la ubicacion de la empresa e informacion de contacto">Contacto</a>
     </nav>
+    <!-- Imagen hero de la página principal, es más grande que en las demás -->
     <div class="hero-home"></div>
+    <!-- La información del showsoom está compuesta por un grid de dos columnas 
+        y una columna cuando se visualiza desde dispositivos móviles. Contiene 
+        un título y tres párrafos. -->
     <section class="showroom container">
         <header>
             <h2>
@@ -49,6 +57,11 @@
             </p>
         </div>
     </section>
+    <!-- En la sección de productos, creamos una grid que con diferentes tamaños, 
+        dependiendo del dispositivo, que contiene una imagen de la categoría y su 
+        título en el centro. El título vendría siendo en enlace hacia la categoría. 
+        Tanto la imagen como el enlace de cada producto, tiene un leve efecto cuando 
+        los usuario se desplazan por la imagen o enlace. -->
     <section class="product">
         <header>
             <h2 class="product__title">Descubre Nuestros Productos</h2>
@@ -110,7 +123,9 @@
             </div>
         </div>
     </section>
-
+    <!-- En el CTA (Call to Action) el usuario podría pedir una cita previa o 
+        subscribirse al newsletter. De momento no tienen funcionalidad ya que no 
+        tienen nada programado en el back. -->
     <div class="cta container">
         <article class="cta__cards">
             <header>
@@ -119,7 +134,9 @@
             <div>
                 <p>Para garantizarte el tiempo y la atenc&oacute;n que mereces, ahora puedes reservar tu cita con uno de nuestros decoradores, evitar esperas y, adem&aacute;s, asegurate tambi&eacute;n tu plaza de parking gratuita.</p>
             </div>
-            <button class="btn">Pide cita previa</button>
+            <!-- Un botón que de momento redirige a la página de presupuesto hasta que se le programe una acción.  -->
+            <button class="btn"><a href="presupuesto.html">Pide cita previa</a></button>
+            
         </article>
         <figure class="noshow">
             <img class="cta__img" src="./assets/img/oficina.png" alt="">
@@ -140,6 +157,7 @@
                     Suscr&iacute;bete a nuestra newsletter, escribiendo tu direcci&oacute;n de correo electr&oacute;nico a continuaci&oacute;n y no te perder&aacute;s nada...
                 </p>
             </div>
+            <!-- Pequeño formulario en el que se le pregunta al usuario si quiere suscribirse al newsletter. -->
             <form action="#">
                 <div class="cta-form">
                     <input type="email" name="email" id="cta-form__email" placeholder="Su correo electr&oacute;nico">
@@ -161,6 +179,7 @@
 
     <footer  class="footer-sec container">
         <div class="footer-sec__adrs">
+            <!-- Sección con el Copyright y la dirección de la empresa.  -->
             <p>Copyright &copy; 2023 Dise&ntilde;o Armon&iacute;a. Todos los derechos reservados | Dirección: Avda. Filipinas esquina, Av. de Pablo Iglesias, s/n, 28003 Madrid</p>
         </div>
         <div class="social-media">

@@ -43,7 +43,7 @@ El sitio deberá tener un estilo atractivo y actual.
 Se puede usar un máximo de tres colores además del blanco y negro.
 
 
-# Validación
+# Validación [DONE]
 El HTML de la página debe validar
 
 
