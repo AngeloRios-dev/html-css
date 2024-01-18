@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
-/* To reset the margin and padding of all labels */
+/* Se eliminan: margenes, padding y bordes de todo 
+para ser aplicados manualmente
+------------------------------------------------- */
 * {
     margin: 0;
     padding: 0;
@@ -10,20 +12,22 @@
     vertical-align: baseline;
 }
 
-/* To avoid problems with images */
+/* Para que estos elementos ocupen el ancho de su
+contenedor, esten centrados y cubran el contenedor
+------------------------------------------------- */ */
 img, picture, video, iframe, figure {
     max-width: 100%;
     width: 100%;
     display: block;
-    /* optional */
     -o-object-fit: cover;
         object-fit: cover;
-    /* optional */
     -o-object-position: center center;
         object-position: center center;
 }
 
-/* To make links work like boxes */
+/* Para eliminar el comportamiento por defecto
+de los enlaces
+------------------------------------------------- */
 a {
     display: block;
     text-decoration: none;
@@ -31,33 +35,40 @@ a {
     font-size: inherit;
 }
 
-/* Links found in paragraphs work inline */
+/* Los enlaces que se encuentran en parrafos
+funcionan como inline, para evitar el salto de linea
+------------------------------------------------- */
 p a {
     display: inline;
 }
 
-/* remove list style type */
+/* Eliminar estilos de listas por defecto
+------------------------------------------------- */
 li {
     list-style-type: none;
 }
 
-/* To modify anchors behavior and font size */
+/* Con el font-size a 62.5% hacemos que sea mas 
+facil hacer la conversión de PX a REM. 
+1REM = 10px
+------------------------------------------------- */
 html {
     font-size: 62.5%; 
-    /* This font size change is made
-    to facilitate the conversion from PX to REM.
-    Like this: 1REM = 10px */
     scroll-behavior: smooth;
 }
 
-/* To modify font attributes */
+/* Para modificar el tamaño por defecto de las fuentes
+y que el tamaño minimo del body sea el 100% del veiwport.
+------------------------------------------------- */
 body {
     min-height: 100vh;
     font-size: 2rem;
     line-height: 1.5;
   }
 
-/* To disable default styles for main text labels */
+/* Se eliminan los estilos por defecto de estas
+etiquetas para ser asignados manualmente.
+------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
     font-weight: inherit;
     font-style: inherit;
@@ -65,7 +76,9 @@ h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
     color: inherit;
 }
 
-/* To solve font and form placement problems */
+/* Se eliminan los estilos por defecto de estas
+etiquetas para ser asignados manualmente.
+------------------------------------------------- */
 form, input, textarea, select, button, label {
     font-family: inherit;
     font-size: inherit;
