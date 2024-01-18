@@ -1,5 +1,5 @@
-/* 
-COLORS */
+/* Variables con los colores a usar en la pagina
+------------------------------------------------- */
 :root{
     --clr-light: #cfcfce;
     --clr-dark-100: #626262;
@@ -8,8 +8,8 @@ COLORS */
     --accent-clr: #0070B8;
 }
 
-/* 
-GLOBAL ADJUSTMENTS */
+/* Ajustes globales
+------------------------------------------------- */
 body{
     background-color: var(--clr-dark-700);
     color: var(--clr-light);
@@ -32,8 +32,8 @@ section{
     padding: 1rem 0;
 }
 
-/* 
-UTILITIES */
+/* Utilidades
+------------------------------------------------- */
 
 .btn{
     padding: 0.5em 1.5em;
@@ -49,8 +49,8 @@ UTILITIES */
     cursor: pointer;
 }
 
-/* 
-HEADER STYLES*/
+/* Estilos para el encabezado de la pagina (logo)
+------------------------------------------------- */
 .header{
     display: flex;
     justify-content: center;
@@ -76,8 +76,8 @@ HEADER STYLES*/
     color: var(--clr-light);
 }
 
-/* 
-NAVIGATION STYLES */
+/* Barra de navegación
+------------------------------------------------- */
 
 nav{
     display: flex;
@@ -106,8 +106,8 @@ nav{
     display: none;
 }
 
-/* 
-HOME HERO IMAGE */
+/* Imagen hero del index
+------------------------------------------------- */
 .hero-home{
     width: 100%;
     height: 55rem;
@@ -119,8 +119,8 @@ HOME HERO IMAGE */
     filter: grayscale(60%);
 }
 
-/* 
-SHOWROOM SECTION */
+/* Estilos para el showroom
+------------------------------------------------- */
 
 .showroom{
     display: grid;
@@ -130,8 +130,8 @@ SHOWROOM SECTION */
     padding: 1.5em;
 }
 
-/* 
-PRODUCT SECTION */
+/* Estilos para los productos
+------------------------------------------------- */
 .product__title{
     margin-left: 1em;
 }
@@ -177,8 +177,8 @@ PRODUCT SECTION */
     background-color: rgba(0, 0, 0, 0);
 }
 
-/* 
-CALL TO ACTION */
+/* Estilos para el Call to Action
+------------------------------------------------- */
 .cta{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -222,8 +222,8 @@ CALL TO ACTION */
     font-size: 1.3rem;
 }
 
-/* 
-GALLERY SECTION */
+/* Estilos para la galería
+------------------------------------------------- */
 .hero-galeria{
     width: 100%;
     height: 35rem;
@@ -245,7 +245,8 @@ GALLERY SECTION */
 .galeria{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 30rem; /* para que las filas tengan una altura espesifica */
+    /* para que las filas tengan una altura espesifica: */
+    grid-auto-rows: 30rem; 
     gap: 1.6rem;
 }
 
@@ -262,14 +263,15 @@ GALLERY SECTION */
     cursor: pointer;
 }
 
+/* Para que sean diferente al resto de las imagenes */
 .galeria__img:nth-child(1),
 .galeria__img:nth-child(6),
 .galeria__img:nth-child(7){
     grid-column: span 2 ;
 }
 
-/* 
-BUDGET SECTION*/
+/* Estilos para la pagina de presupuesto
+------------------------------------------------- */
 
 .formulario{
     max-width: 60rem;
@@ -312,8 +314,8 @@ BUDGET SECTION*/
     font-size: 1.3rem;
 }
 
-/* 
-CONTACT SECTION */
+/* Estilos pagina de contacto
+------------------------------------------------- */
 .hero-contacto{
     width: 100%;
     height: 35rem;
@@ -340,20 +342,8 @@ CONTACT SECTION */
     width: 95%;
 }
 
-/* 
-MESSAGE HANDLER */
-.handler{
-    margin: 0 auto;
-    width: min(100%, 120rem);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-/* 
-FOOTER SECTION */
+/* Estilos para el pie de página
+------------------------------------------------- */
 .footer-sec{
     margin: 2rem auto;
     display: flex;
@@ -383,14 +373,13 @@ FOOTER SECTION */
     fill: var(--accent-clr);
 }
 
-/* 
-Breakpoint for Medium devices (landscape tablets, 995px and down) */
+/* Breakpint para dispositivos medianos (tablets en horizontal, de 995px para abajo)
+------------------------------------------------- */
 @media only screen and (max-width: 995px) {
     nav{
         display: flex;
         justify-content: space-around;
     }
-    
     .nav__link{
         margin: 3rem 1rem;
     }
@@ -399,7 +388,6 @@ Breakpoint for Medium devices (landscape tablets, 995px and down) */
     }
     .showroom{
         grid-template-columns: 1fr;
-
     }
     .cta{
         grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -425,8 +413,8 @@ Breakpoint for Medium devices (landscape tablets, 995px and down) */
     }
 }
 
-/* 
-Breakpoint for small devices (phones, 600px and down) */
+/* Breakpoint para dispositivos pequeños (Teléfonos, de 600px para abajo)
+------------------------------------------------- */
 @media only screen and (max-width: 600px) {
     .nav-toggle:checked ~ nav{
         display: block;
@@ -482,6 +470,5 @@ Breakpoint for small devices (phones, 600px and down) */
     }
     .galeria__img:nth-child(n){
         grid-column: span 4 ;
-    }
-    
+    }  
 }
