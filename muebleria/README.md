@@ -47,5 +47,5 @@ Se puede usar un máximo de tres colores además del blanco y negro.
 El HTML de la página debe validar
 
 
-# Estructura del código y limpieza
+# Estructura del código y limpieza [DONE]
 El código deberá estar correctamente estructurado e identado. Se valorará su claridad y limpieza, así como el buen uso de las etiquetas y sus propiedades. Por último, el código deberá estar correctamente comentado.
