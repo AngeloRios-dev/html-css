@@ -14,7 +14,7 @@ para ser aplicados manualmente
 
 /* Para que estos elementos ocupen el ancho de su
 contenedor, esten centrados y cubran el contenedor
-------------------------------------------------- */ */
+------------------------------------------------- */
 img, picture, video, iframe, figure {
     max-width: 100%;
     width: 100%;
