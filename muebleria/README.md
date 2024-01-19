@@ -56,9 +56,9 @@ El código deberá estar correctamente estructurado e identado. Se valorará su 
 
 - El archivo index da error de validación. [DONE]
 
-- Todos los archivos HTML menos index deben encontrarse dentro de una carpeta views.
+- Todos los archivos HTML menos index deben encontrarse dentro de una carpeta views. [DONE]
 
-- Aunque deban ser redimensionados en CSS, en HTML las imágenes deben ir acompañados de la altura y anchura real de su archivo para que el ordenador sepa cuánta RAM ha de reservar.
+- Aunque deban ser redimensionados en CSS, en HTML las imágenes deben ir acompañados de la altura y anchura real de su archivo para que el ordenador sepa cuánta RAM ha de reservar. [DONE]
 
 - En el presupuesto, mensaje es el único campo que debo poder dejar vacío.
 
