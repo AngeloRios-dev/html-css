@@ -38,14 +38,30 @@ Se deberá incluir un checkbox dónde los usuarios aceptarán la “Política de
 Se llamará: contacto.html, en ella se deberá insertar un mapa con la ubicación de la empresa, puede ser una imagen (.png o .jpg) así como los datos de la empresa. 
 
 
-# Estilo [DONE]
+## Estilo [DONE]
 El sitio deberá tener un estilo atractivo y actual.
 Se puede usar un máximo de tres colores además del blanco y negro.
 
 
-# Validación [DONE]
+## Validación [DONE]
 El HTML de la página debe validar
 
 
-# Estructura del código y limpieza [DONE]
+## Estructura del código y limpieza [DONE]
 El código deberá estar correctamente estructurado e identado. Se valorará su claridad y limpieza, así como el buen uso de las etiquetas y sus propiedades. Por último, el código deberá estar correctamente comentado.
+
+***
+
+# Correcciones a implementar
+
+- El archivo index da error de validación.
+
+- Todos los archivos HTML menos index deben encontrarse dentro de una carpeta views.
+
+- Aunque deban ser redimensionados en CSS, en HTML las imágenes deben ir acompañados de la altura y anchura real de su archivo para que el ordenador sepa cuánta RAM ha de reservar.
+
+- En el presupuesto, mensaje es el único campo que debo poder dejar vacío.
+
+- Además, debes asegurarte de que los datos introducidos sean válidos con el atributo pattern.
+
+- El footer debe encontrarse siempre al pie de la página, independientemente de la cantidad de contenido.
