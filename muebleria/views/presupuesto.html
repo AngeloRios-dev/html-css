@@ -50,11 +50,11 @@
             </div>
             <div class="formulario__campo">
                 <label class="formulario__label" for="mail">Email:</label>
-                <input class="formulario__input" type="email" name="mail" id="mail" placeholder="Tu e-mail" required>
+                <input class="formulario__input" type="email" name="mail" id="mail" placeholder="Tu e-mail" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" title="tucorreo@proveedor.dominio" required>
             </div>
             <div class="formulario__campo">
                 <label class="formulario__label" for="telefono">Tel&eacute;fono:</label>
-                <input class="formulario__input" type="tel" name="telefono" id="telefono" placeholder="Tu telefono" required>
+                <input class="formulario__input" type="tel" name="telefono" id="telefono" placeholder="Tu telefono" pattern="[0-9]{9}" title="Numero de Espa&ntilde;a de 9 d&iacute;gitos" required>
             </div>
             <div class="formulario__campo">
                 <label class="formulario__label" for="mensaje">Mensaje:</label>

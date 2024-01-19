@@ -60,8 +60,8 @@ El código deberá estar correctamente estructurado e identado. Se valorará su 
 
 - Aunque deban ser redimensionados en CSS, en HTML las imágenes deben ir acompañados de la altura y anchura real de su archivo para que el ordenador sepa cuánta RAM ha de reservar. [DONE]
 
-- En el presupuesto, mensaje es el único campo que debo poder dejar vacío.
+- En el presupuesto, mensaje es el único campo que debo poder dejar vacío. [DONE]
 
-- Además, debes asegurarte de que los datos introducidos sean válidos con el atributo pattern.
+- Además, debes asegurarte de que los datos introducidos sean válidos con el atributo pattern. [DONE]
 
 - El footer debe encontrarse siempre al pie de la página, independientemente de la cantidad de contenido.
