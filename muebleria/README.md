@@ -54,7 +54,7 @@ El código deberá estar correctamente estructurado e identado. Se valorará su 
 
 # Correcciones a implementar
 
-- El archivo index da error de validación.
+- El archivo index da error de validación. [DONE]
 
 - Todos los archivos HTML menos index deben encontrarse dentro de una carpeta views.
 

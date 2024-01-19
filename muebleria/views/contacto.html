@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Descubre la elegancia y comodidad a medida en Dise&ntilde;oArmon&iacute;a. Creamos y ofrecemos una amplia variedad de muebles personalizados para tu hogar u oficina. Encuentra soluciones de diseño únicas que se adaptan perfectamente a tu estilo y necesidades. ¡Transforma tus espacios con calidad y distinción en cada detalle!">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/main.css">
-    <title>Galeria de Productos | Dise&ntilde;o Armon&iacute;a</title>
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <title>Ponte en contacto con nosotros | Dise&ntilde;o Armon&iacute;a</title>
 </head>
 <body>
     <header class="header container">
@@ -29,39 +29,41 @@
     <input type="checkbox" id="nav-display" class="nav-toggle">
     <!-- Barra de navegación o menú hamburguesa en versiones móviles -->
     <nav class="nav container">
-        <a class="nav__link" href="index.html" title="Pagina de inicio">Inicio</a>
-        <a class="nav__link active--link" href="productos.html" title="Enlace a pagina de productos">Productos</a>
-        <a class="nav__link" href="presupuesto.html" title="Pagina con formulario para solicitar presupuesto">Presupuesto</a>
-        <a class="nav__link" href="contacto.html" title="Pagina con el mapa de la ubicacion de la empresa e informacion de contacto">Contacto</a>
+        <a class="nav__link" href="../index.html" title="Pagina de inicio">Inicio</a>
+        <a class="nav__link" href="../views/productos.html" title="Enlace a pagina de productos">Productos</a>
+        <a class="nav__link" href="../views/presupuesto.html" title="Pagina con formulario para solicitar presupuesto">Presupuesto</a>
+        <a class="nav__link active--link" href="../views/contacto.html" title="Pagina con el mapa de la ubicacion de la empresa e informacion de contacto">Contacto</a>
     </nav>
-    <!-- Imagen hero de la página galeria, es más pequeña que en index -->
-    <div class="hero-galeria">
-        <div class="hero-galeria__titulo">
-            <h1>Galeria de Productos</h1>
+    <!-- Imagen hero de la sección de contacto con su titulo -->
+    <div class="hero-contacto">
+        <div class="hero-contacto__titulo">
+            <h1>Asesoramiento Especializado</h1>
         </div>
-
     </div>
-
-    <section class="container">
-        <header>
-            <h2>Muebles de Interior</h2>
-        </header>
-        <!-- En el apartado de galería, de momento solo tengo 9 imágenes. Está compuesta 
-            por un grid de 4 columnas, las imágenes 1, 6 y 7 ocupan 2 columnas para dar 
-            variedad a la galería.  -->
-        <div class="galeria">
-            <img class="galeria__img" src="./assets/img/galeria_01.jpg" alt="Imagen lateral de una came en habitacion">
-            <img class="galeria__img" src="./assets/img/galeria_02.jpg" alt="Imagen con enfacis en mesa de noche">
-            <img class="galeria__img" src="./assets/img/galeria_03.jpg" alt="Imagen frontal de una cama">
-            <img class="galeria__img" src="./assets/img/galeria_04.jpg" alt="Imagen de dos sofas">
-            <img class="galeria__img" src="./assets/img/galeria_05.jpg" alt="Imagen parcial de un sofa y una silla">
-            <img class="galeria__img" src="./assets/img/galeria_06.jpg" alt="Imagen frontal de un sofa con una mesa baja">
-            <img class="galeria__img" src="./assets/img/galeria_07.jpg" alt="Imagen de una sala de estar con sus muebles">
-            <img class="galeria__img" src="./assets/img/galeria_08.jpg" alt="Imagen de dos muebles en sala de estar">
-            <img class="galeria__img" src="./assets/img/galeria_09.jpg" alt="Imagen de estante decorativo de tres compartimientos">
+    <!-- Sección con la información de contacto y un mapa de la ubicación. 
+        Está formada por un grid de dos columnas para la versión de escritorio 
+        y una columna para móviles.  -->
+    <section class="ubicacion container">
+        <div>
+            <h2>Ponte en contacto con nosotros</h2>
+            <p>
+                Puede visitar nuestra oficina o programar una cita para recibir un primer asesoramiento gratuito a través de nuestros expertos.
+            </p>
+            <p>
+                Nos especializamos en servicios tanto a profesionales como a individuos, asegurando que cada cliente pueda encontrar soluciones personalizadas que respalden la belleza y la funcionalidad de sus entornos. Descubre la excelencia en diseño y calidad con nosotros.
+            </p>
+            <p>
+                Dirección: Avda. Filipinas esquina, Av. de Pablo Iglesias, s/n, 28003 Madrid
+            </p>
+            <p>
+                N&uacute;mero Telef&oacute;nico: +34 666 66 66 66
+            </p>
+        </div>
+        <!-- Mapa con una dirección al azar de google maps -->
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7222.003026114341!2d-3.7062803634660497!3d40.44255118159429!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42285835e44d35%3A0xd60ef53a1861b893!2sCentro%20de%20Ocio%20y%20Deporte%20Tercer%20Dep%C3%B3sito%20Canal%20de%20Isabel%20II!5e0!3m2!1ses!2ses!4v1705437322877!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
-
     <footer  class="footer-sec container">
         <div class="footer-sec__adrs">
             <!-- Sección con el Copyright y la dirección de la empresa.  -->
@@ -83,6 +85,8 @@
                 <svg height="100%" viewBox="0 0 512 512" width="100%" xmlns="http://www.w3.org/2000/svg"><path d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z"/></svg>
             </a>
         </div>
+    
     </footer>
+
 </body>
 </html>
