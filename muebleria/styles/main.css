@@ -26,6 +26,16 @@ section{
     padding: 3rem 0;
 }
 
+.wrapper{
+    display: grid;
+    min-height: 100vh;
+    align-content: space-between;
+}
+
+.content{
+    height: 100%;
+}
+
 .container{
     margin: 0 auto;
     width: min(100%, 120rem);
@@ -345,11 +355,6 @@ nav{
 /* Estilos para el pie de página
 ------------------------------------------------- */
 .footer-sec{
-    /* INICIO test footer position */
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    /* FIN test footer position */
     margin: 2rem auto;
     display: flex;
     flex-direction: column;

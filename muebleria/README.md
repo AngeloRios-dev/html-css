@@ -64,4 +64,4 @@ El código deberá estar correctamente estructurado e identado. Se valorará su 
 
 - Además, debes asegurarte de que los datos introducidos sean válidos con el atributo pattern. [DONE]
 
-- El footer debe encontrarse siempre al pie de la página, independientemente de la cantidad de contenido.
+- El footer debe encontrarse siempre al pie de la página, independientemente de la cantidad de contenido. [DONE]
